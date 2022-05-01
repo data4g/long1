@@ -106,15 +106,15 @@ error_detect_depends() {
 # Pre-installation settings
 pre_install_docker_compose() {
 
- echo -e "[1] 4g.quoctai.xyz"
+ echo -e "[1] 4ghatde.com"
   echo -e "[2] 4g.giare.me"
   read -p "Web đang sử dụng:" api_host
   if [ "$api_host" == "1" ]; then
-    api_host="https://4g.quoctai.xyz"
+    api_host="https://4ghatde.com"
   elif [ "$api_host" == "2" ]; then
     api_host="https://4g.giare.me"
   else 
-    api_host="https://4g.quoctai.xyz"
+    api_host="https://4ghatde.com"
   fi
 
   echo "--------------------------------"
