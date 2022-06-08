@@ -106,15 +106,15 @@ error_detect_depends() {
 # Pre-installation settings
 pre_install_docker_compose() {
 
- echo -e "[1] 4g.quoctai.xyz"
-  echo -e "[2] 4g.giare.me"
+ echo -e "[1] go.azvpn.me"
+  echo -e "[2] go.azvpn.me"
   read -p "Web đang sử dụng:" api_host
   if [ "$api_host" == "1" ]; then
-    api_host="https://4g.quoctai.xyz"
+    api_host="https://go.azvpn.me"
   elif [ "$api_host" == "2" ]; then
-    api_host="https://4g.giare.me"
+    api_host="https://go.azvpn.me"
   else 
-    api_host="https://4g.quoctai.xyz"
+    api_host="https://go.azvpn.me"
   fi
 
   echo "--------------------------------"
@@ -192,8 +192,8 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel, Proxypanel
     ApiConfig:
-      ApiHost: "https://4g.quoctai.xyz"
-      ApiKey: "phamvanquoctai0209"
+      ApiHost: "https://go.azvpn.me"
+      ApiKey: "azvpn.me_azvpn.me"
       NodeID: 41
       NodeType: V2ray # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
@@ -374,7 +374,7 @@ Install_xrayr() {
 # Initialization step
 clear
 while true; do
-  echo "-----XrayR của Tài copy -----"
+  echo "-----XrayR của long copy -----"
   echo "Địa chỉ dự án và tài liệu trợ giúp:  "
   echo "Vui lòng nhập một số để Thực Hiện Câu Lệnh:"
   for ((i = 1; i <= ${#operation[@]}; i++)); do
