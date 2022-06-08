@@ -2,5 +2,5 @@
 
 ## Cài đặt 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/qtai2901/tai/main/tai.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/long1/tai/main/long.sh)
 ```
